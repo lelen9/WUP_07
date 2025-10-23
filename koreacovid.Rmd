@@ -56,6 +56,11 @@ After analyzing, I realized that the percentage of living people are higher than
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## Inferential results 
 
