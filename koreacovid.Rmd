@@ -64,8 +64,12 @@ colPerc(table1)
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
-
+While analyzing the Inferential results, I found out the men dying in Korea from COVID by 2.3 percent than the women. This Proof also aligns with the charts from before. The p-value is low,meaning the man has more chance of getting COVID then the women.
 ## Conclusions
 
